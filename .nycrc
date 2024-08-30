@@ -1,0 +1,18 @@
+{
+    "cache":false,
+    "check-converage":true,
+    "extension":["js","mjs"],
+    "include":["src/**/*.js"],
+    "exclude":["test/**.spec.mjs"],
+    "reporter":[
+        "lcov",
+        "text",
+        "text-summary",
+        "cobertura"
+    ],
+    "report-dir":"./test_report",
+    "statements:":90,
+    "branches":90,
+    "functions":90,
+    "lines":90
+}
